@@ -1,0 +1,5 @@
+package com.karthik.OneToOneMapping.repository;
+
+public interface PersonRepository {
+
+}

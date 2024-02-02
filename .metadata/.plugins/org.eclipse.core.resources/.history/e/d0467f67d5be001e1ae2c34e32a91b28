@@ -1,0 +1,17 @@
+package com.karthik.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.karthik.repo.AddressRepository;
+import com.karthik.repo.EmplyeeRepository;
+
+@Service
+public class EmployeeService {
+
+	@Autowired
+	private EmplyeeRepository empRepo;
+	
+	@Autowired
+	private AddressRepository addRepo;
+}

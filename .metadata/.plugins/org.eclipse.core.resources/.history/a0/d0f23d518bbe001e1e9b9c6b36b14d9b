@@ -1,0 +1,5 @@
+package com.karthik.OneToOneMapping.entities;
+
+public class Passport {
+
+}

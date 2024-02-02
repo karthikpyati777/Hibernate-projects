@@ -1,0 +1,16 @@
+package com.karthik.OneToOneMapping.service;
+
+import org.springframework.stereotype.Service;
+
+import com.karthik.OneToOneMapping.entities.Person;
+
+@Service
+public class PersonService {
+
+	public void saveData() {
+		Person p=new Person();
+		p.setPersonName("KARTHIK");
+		p.setPersonGender("MALE");
+	}
+}
+

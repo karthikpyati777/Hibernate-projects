@@ -1,0 +1,5 @@
+package com.karthik.repo;
+
+public interface EmplyeeRepository {
+
+}

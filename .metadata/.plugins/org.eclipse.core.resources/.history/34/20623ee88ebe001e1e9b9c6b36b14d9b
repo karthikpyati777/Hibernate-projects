@@ -1,0 +1,5 @@
+package com.karthik.OneToOneMapping.service;
+
+public class PersonService {
+
+}
